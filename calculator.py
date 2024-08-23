@@ -32,5 +32,11 @@ class Calculator:
         self.result = a ** (1/b)
         return self.result
     
+    def clear(self):
+        self.result = 0
+        return self.result
+    
+    
+    
     def get_result(self):
         return self.result
