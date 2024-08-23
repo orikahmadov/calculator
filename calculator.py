@@ -21,5 +21,10 @@ class Calculator:
         self.result = a / b
         return self.result
     
+    
+    def power(self, a, b):
+        self.result = a ** b
+        return self.result
+    
     def get_result(self):
         return self.result
