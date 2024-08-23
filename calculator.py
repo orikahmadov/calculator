@@ -26,5 +26,11 @@ class Calculator:
         self.result = a ** b
         return self.result
     
+    
+    def root(self, a, b):
+        """ Calculate the bth root of a """
+        self.result = a ** (1/b)
+        return self.result
+    
     def get_result(self):
         return self.result
